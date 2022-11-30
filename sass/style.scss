@@ -1,0 +1,96 @@
+/* Variables */
+$font-text:'Great Vibes', cursive;
+
+/* Global */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+margin: 0;
+font-size: 16px;
+line-height: 1.7;
+color: white;
+
+}
+
+.container{
+
+max-width: 1140px;
+margin: 0 auto;
+padding: 0 20px; 
+
+
+}
+
+.section{
+padding: 96px 0px;
+}
+
+/* Navigation */
+.navi{
+padding: 15px 0;
+ul{
+   padding: 0;
+   margin: 0;
+   list-style-type: none;
+   display: flex;
+   justify-content: flex-end;
+   li{
+       display: inline-block;
+       padding: 5px;
+   }
+
+}
+}
+.navi{
+    h4{
+        margin:0px;
+        padding: 0px;
+        font-family: $font-text;
+        font-size: 26px;
+        letter-spacing: 1px;
+        line-height: 41px;
+        color: #fed136;
+    }
+}
+
+.navi{
+a{
+    text-decoration: none;
+    color: white;
+}
+}
+
+.nav-top{
+display:flex;
+justify-content: space-between;
+
+}
+
+/* Splash */
+
+.splash {
+height: 100vh;
+position: relative;
+background-image: url('https://i.ibb.co/8YVZnbC/Header-img.png');
+background-position: center center;
+background-size: cover;
+}
+
+.splash-inner {
+position: absolute;
+
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+.btn{
+width: 183px;
+height: 47px;
+border-radius: 24px;
+border: 2px solid #ffffff;
+color: white;
+}
