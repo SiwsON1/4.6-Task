@@ -176,3 +176,35 @@ I{
         text-align: center;
     }
 }
+
+.our-portfolio{
+    text-align: center;
+    background-color: #f7f7f7;
+    h4{
+        
+   
+    }
+    
+
+}
+.gallery-box{
+    flex: 0 0 33.3333%;
+    
+    margin-bottom: 93px;
+    
+    img{
+        height: 100%;
+        object-fit: cover;
+        max-width: 250px;
+    }
+}
+.gallery-text{
+    
+    background-color:white;
+}
+.img-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
