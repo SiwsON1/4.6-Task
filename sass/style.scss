@@ -1,6 +1,5 @@
 /* Variables */
 $font-text:'Great Vibes', cursive;
-
 $font-header:'Montserrat', sans-serif;
 
 /* Global */
@@ -26,7 +25,7 @@ padding: 0 20px;
 }
 
 section{
-padding: 96px 0 20px 0;
+padding: 96px 0;
 
 }
 
@@ -34,7 +33,6 @@ padding: 96px 0 20px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    ; 
  }
 
 /* Navigation */
@@ -48,7 +46,7 @@ ul{
    justify-content: flex-end;
    li{
        display: inline-block;
-       padding: 5px;
+       padding: 20px;
    }
 
 }
@@ -83,9 +81,10 @@ justify-content: space-between;
 .splash {
 height: 100vh;
 position: relative;
-background-image: url('https://i.ibb.co/8YVZnbC/Header-img.png');
+background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('https://i.ibb.co/8YVZnbC/Header-img.png');
 background-position: center center;
 background-size: cover;
+
 }
 
 .splash-inner {
@@ -123,6 +122,7 @@ header{
         font-weight: 700;
         font-family: $font-header;
         text-align: center;
+        padding: 30px;
       }
       h2{
         font-size: 40px;
@@ -242,6 +242,7 @@ I{
 
 }
 
+
 .page-footer{
     Li{
         font-size: 0px;
@@ -280,6 +281,8 @@ I{
     padding: 48px 0px;
     p{
         text-align: center;
+        margin-top: 14px;
+        
     }
     
 }
